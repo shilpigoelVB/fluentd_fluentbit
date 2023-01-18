@@ -365,7 +365,7 @@ fileConfigs:
         @log_level info
         include_tag_key true
         type_name _doc
-        host "10.110.15.43"
+        host "10.0.10.233"
         port 9200
         scheme https
         ssl_verify false
