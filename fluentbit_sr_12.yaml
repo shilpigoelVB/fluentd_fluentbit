@@ -328,7 +328,7 @@ config:
     [OUTPUT]
         Name          es
         Match         *
-        Host          10.0.10.208
+        Host          "Open Search Private IP>>
         Port          9200
         Index         fluent-bit
         Suppress_Type_Name On
@@ -336,8 +336,8 @@ config:
         tls           On
         tls.verify    Off
         tls.debug     1
-        HTTP_User     openSearch
-        HTTP_Passwd   Learning@cloud2
+        HTTP_User     user_name
+        HTTP_Passwd   user_pwd
   ## https://docs.fluentbit.io/manual/pipeline/parsers
   customParsers: |
     [PARSER]
